@@ -9,8 +9,8 @@ maven {
     name = "GitHubPackages"
     url = uri("https://maven.pkg.github.com/DevSoulDynamics/RECfy-SDK-Android")
     credentials {
-        username 'GITHUB_username'
-        password 'GITHUB_token'
+         username props['GITHUB_username']
+         password props['GITHUB_token']
     }
 }
 ```
