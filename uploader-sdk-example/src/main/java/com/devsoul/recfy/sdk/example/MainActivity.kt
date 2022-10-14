@@ -4,8 +4,8 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.devsoul.recfy.sdk.RecfyUploaderSDK
-import com.devsoul.recfy.uploadersdk.example.BuildConfig
-import com.devsoul.recfy.uploadersdk.example.databinding.ActivityMainBinding
+import com.devsoul.recfy.sdk.example.BuildConfig
+import com.devsoul.recfy.sdk.example.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
