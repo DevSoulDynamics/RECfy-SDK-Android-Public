@@ -17,8 +17,8 @@ def addRepos(RepositoryHandler handler) {
         name = "GithubPackages"
         url = "https://maven.pkg.github.com/DevSoulDynamics/RECfy-SDK-Android-Public"
         credentials {
-            username props['username']
-            password props['token']
+            username props['GITHUB_token']
+            password props['GITHUB_token']
         }
     }
 }

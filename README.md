@@ -2,7 +2,7 @@
 
 ## Installation
 
-root project gradle
+add to root project gradle
 
 ```Gradle 
 maven {
@@ -32,4 +32,11 @@ class MainActivity : AppCompatActivity() {
 Upload Media
 ```kotlin
 uploaderSDK.uploadMedia(USER_EMAIL, EVENT_CODE, USER_GDPR)
+```
+
+## Example
+Simple app to test the SDK, to run the example you should create a `github.properties` file:
+```
+username=GITHUB_username
+token=GITHUB_token
 ```
