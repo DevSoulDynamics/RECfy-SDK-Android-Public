@@ -19,7 +19,7 @@ versions.google_services_gradle_plugin = "4.3.3"
 versions.kotlin_gradle_plugin = "1.5.30"
 
 // kotlin core
-versions.recfy_sdk= "0.1.1"
+versions.recfy_sdk= "0.2.0"
 
 // kotlin core
 versions.kotlin = "1.4.10"
